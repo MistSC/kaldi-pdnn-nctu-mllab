@@ -1,0 +1,19 @@
+make_post_nnet_bkup.sh
+make_post_nnet.sh
+make_seq_data.sh
+run-dnn-mpe.sh
+
+# folders
+/run_hkust
+/run_swbd
+/run_swbd_110h
+/run_tedlium
+#/run_wsj
+
+
+# experiments and data
+/run_timit/exp*
+/run_timit/data*
+/run_timit/cle
+/run_timit/test*
+/run_timit/fbank*

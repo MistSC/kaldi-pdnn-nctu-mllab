@@ -1,0 +1,24 @@
+<html><head>
+<title>test.py</title>
+<meta name="Generator" content="htmlizer/[twisted, version 13.2.0]" />
+<link rel="alternate" href="test.py" type="text/x-python" />
+
+</head>
+<body>
+<pre><span class="py-src-keyword">import</span> <span class="py-src-variable">ipdb</span>
+<span class="py-src-keyword">import</span> <span class="py-src-variable">numpy</span> <span class="py-src-keyword">as</span> <span class="py-src-variable">np</span>
+<span class="py-src-keyword">import</span> <span class="py-src-variable">sys</span>
+
+<span class="py-src-keyword">from</span> <span class="py-src-variable">io_func</span>.<span class="py-src-variable">data_io</span> <span class="py-src-keyword">import</span> <span class="py-src-variable">read_data_args</span>
+<span class="py-src-keyword">from</span> <span class="py-src-variable">io_func</span>.<span class="py-src-variable">data_io</span> <span class="py-src-keyword">import</span> <span class="py-src-variable">read_dataset</span>
+<span class="py-src-keyword">from</span> <span class="py-src-variable">io_func</span>.<span class="py-src-variable">data_io</span> <span class="py-src-keyword">import</span> <span class="py-src-variable">read_dataset_utt</span>
+
+
+(<span class="py-src-variable">pl</span>,<span class="py-src-variable">opts</span>)=<span class="py-src-variable">read_data_args</span>(<span class="py-src-errortoken">'</span>/<span class="py-src-variable">home</span>/<span class="py-src-variable">shen</span>/<span class="py-src-variable">kaldipdnn</span>/<span class="py-src-variable">run_timit</span>/<span class="py-src-variable">test1</span>/<span class="py-src-variable">concat</span>/*.<span class="py-src-variable">pfile</span>,<span class="py-src-variable">random</span>=<span class="py-src-variable">false</span>,<span class="py-src-variable">stream</span>=<span class="py-src-variable">false</span>,<span class="py-src-variable">utt</span>=<span class="py-src-variable">true</span>)
+
+    <span class="py-src-variable">rdu</span>=<span class="py-src-variable">read_dataset_utt</span>(<span class="py-src-variable">pl</span>,<span class="py-src-variable">opts</span>)
+
+
+<span class="py-src-variable">ipdb</span>.<span class="py-src-variable">set_trace</span>()
+</pre>
+</body>
